@@ -13,6 +13,8 @@
 
                   -> User Data is Stored in DB
 ![image](https://user-images.githubusercontent.com/63143690/191243338-40d9be40-c83f-4677-9fc1-ffa3aeb577e8.png)
+![image](https://user-images.githubusercontent.com/63143690/191246517-d9bdceba-d556-4c35-b79b-88bbd1169b6f.png)
+
                   
 
 
