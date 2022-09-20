@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url(background.jpg);
+    background-size: cover;
+}
+.Login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin:auto;
+}
+.form{
+    width:300px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgb(29, 7, 1);
+    opacity: 0.8;
+    text-align: center;
+
+}
+.form h1
+{
+    color: antiquewhite;
+    text-transform: uppercase ;
+    font-weight: 700;
+}
+.form input[type="text"],.form input[type="password"], .form input[type= "email"]
+{
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid gray;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius:24px ;
+    transition: 0.25px;
+}
+
+.form input[type="text"]:focus,.form input[type="password"]:focus{
+    width: 270px;
+    border-color: orangered;
+}
+.form input[type="submit"]
+{
+    border: 0;
+    background: none;
+    font-size: medium;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid aliceblue;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius:24px ;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover
+{
+background: rgb(211, 114, 69);
+}
+form .message{
+    margin: 15px;
+    color: rgb(253, 248, 246);
+    font-size: 20px;
+}
+
+.form .message a{
+    color: rgb(235, 97, 17);
+    text-decoration: none;
+
+}
+.form .register-form{
+    display: none;
+}
